@@ -292,7 +292,6 @@
 
 struct rgb{
       int r,g,b;
-      /* data */
 };
 
 rgb hex2rgb(std::string hex);
