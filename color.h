@@ -3,6 +3,7 @@
 
 #include <string>
 
+//red
 #define IndianRed {205,92,92}
 #define IndianRedH "CD5C5C"
 #define LightCoral {240,128,128}
@@ -21,6 +22,8 @@
 #define FireBrickH "B22222"
 #define DarkRed {139,0,0}
 #define DarkRedH "8B0000"
+//-----------------------
+//pink
 #define Pink {255,192,203}
 #define PinkH "FFC0CB"
 #define LightPink {255,182,193}
@@ -33,6 +36,8 @@
 #define MediumVioletRedH "C71585"
 #define PaleVioletRed {219,112,147}
 #define PaleVioletRedH "DB7093"
+//-----------------------------
+//orange
 #define LightSalmon {255,160,122}
 #define LightSalmonH "FFA07A"
 #define Coral {255,127,80}
@@ -45,6 +50,8 @@
 #define DarkOrangeH "FF8C00"
 #define Orange {255,165,0}
 #define OrangeH "FFA500"
+//----------------------
+//yellow
 #define Gold {255,215,0}
 #define GoldH "FFD700"
 #define Yellow {255,255,0}
@@ -67,6 +74,8 @@
 #define KhakiH "F0E68C"
 #define DarkKhaki {189,183,107}
 #define DarkKhakiH "BDB76B"
+//--------------------------
+//purple
 #define Lavender {230,230,250}
 #define LavenderH "E6E6FA"
 #define Thistle {216,191,216}
@@ -105,6 +114,8 @@
 #define DarkSlateBlueH "483D8B"
 #define MediumSlateBlue {123,104,238}
 #define MediumSlateBlueH "7B68EE"
+//------------------------------
+//green
 #define GreenYellow {173,255,47}
 #define GreenYellowH "ADFF2F"
 #define Chartreuse {127,255,0}
@@ -151,6 +162,8 @@
 #define DarkCyanH "008B8B"
 #define Teal {0,128,128}
 #define TealH "008080"
+//--------------------
+//blue
 #define Aqua {0,255,255}
 #define AquaH "00FFFF"
 #define Cyan {0,255,255}
@@ -201,6 +214,8 @@
 #define NavyH "000080"
 #define MidnightBlue {25,25,112}
 #define MidnightBlueH "191970"
+//----------------------------
+//brown
 #define Cornsilk {255,248,220}
 #define CornsilkH "FFF8DC"
 #define BlanchedAlmond {255,235,205}
@@ -235,6 +250,8 @@
 #define BrownH "A52A2A"
 #define Maroon {128,0,0}
 #define MaroonH "800000"
+//----------------------
+//white
 #define White {255,255,255}
 #define WhiteH "FFFFFF"
 #define Snow {255,250,250}
@@ -269,6 +286,8 @@
 #define LavenderBlushH "FFF0F5"
 #define MistyRose {255,228,225}
 #define MistyRoseH "FFE4E1"
+//------------------------
+//gray
 #define Gainsboro {220,220,220}
 #define GainsboroH "DCDCDC"
 #define LightGray {211,211,211}
@@ -289,10 +308,10 @@
 #define DarkSlateGrayH "2F4F4F"
 #define Black {0,0,0}
 #define BlackH "000000"
+//---------------------
 
 struct rgb{
       int r,g,b;
-      /* data */
 };
 
 rgb hex2rgb(std::string hex);
