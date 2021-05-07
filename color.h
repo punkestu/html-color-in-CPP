@@ -2,6 +2,7 @@
 #define COLOR__H
 
 #include <string>
+#include <vector>
 
 //red
 #define IndianRed {205,92,92}
@@ -315,5 +316,18 @@ struct rgb{
 };
 
 rgb hex2rgb(std::string hex);
+
+struct colorClass{
+      std::string className;
+      std::vector<rgb> color;
+};
+
+namespace colorClasification{
+      colorClass _red(); colorClass _pink();
+      colorClass _orange(); colorClass _yellow();
+      colorClass _purple(); colorClass _green(); 
+      colorClass _blue(); colorClass _brown(); 
+      colorClass _white(); colorClass _grey();
+}
 
 #endif
